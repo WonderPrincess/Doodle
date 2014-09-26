@@ -7,10 +7,12 @@ public:
 	map(void);
 	~map(void);
 
-	static const int x = 24;
-	static const int y = 8;
+	static const int width = 24;
+	static const int height = 8;
 
-	char field[y][x];
+	static char field[height][width];
+
+	static void print();
 
 };
 
