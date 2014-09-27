@@ -16,6 +16,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+<<<<<<< HEAD
 # Roslyn cache directories
 *.ide/
 # MSTest test Results
@@ -24,10 +25,28 @@ bld/
 #NUNIT
 *.VisualState.xml
 TestResult.xml
+=======
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+>>>>>>> origin/master
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 *_i.c
 *_p.c
 *_i.h
@@ -52,8 +71,15 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+<<<<<<< HEAD
 # Chutzpah Test files
 _Chutzpah*
+=======
+
+# Chutzpah Test files
+_Chutzpah*
+
+>>>>>>> origin/master
 # Visual C++ cache files
 ipch/
 *.aps
@@ -65,16 +91,30 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+<<<<<<< HEAD
 # TFS 2012 Local Workspace
 $tf/
+=======
+
+# TFS 2012 Local Workspace
+$tf/
+
+>>>>>>> origin/master
 # Guidance Automation Toolkit
 *.gpState
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
+<<<<<<< HEAD
 # JustCode is a .NET coding addin-in
 .JustCode
+=======
+
+# JustCode is a .NET coding addin-in
+.JustCode
+
+>>>>>>> origin/master
 # TeamCity is a build add-in
 _TeamCity*
 # DotCover is a Code Coverage Tool
@@ -82,11 +122,22 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+<<<<<<< HEAD
 # MightyMoose
 *.mm.*
 AutoTest.Net/
 # Web workbench (sass)
 .sass-cache/
+=======
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+>>>>>>> origin/master
 # Installshield output folder
 [Ee]xpress/
 # DocProject is a documentation generator add-in
@@ -103,10 +154,18 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
+=======
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+>>>>>>> origin/master
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
@@ -115,6 +174,10 @@ publish/
 !**/packages/build/
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
 #!**/packages/repositories.config
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 # Windows Azure Build Output
 csx/
 *.build.csdef
@@ -132,8 +195,15 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+<<<<<<< HEAD
 # RIA/Silverlight projects
 Generated_Code/
+=======
+
+# RIA/Silverlight projects
+Generated_Code/
+
+>>>>>>> origin/master
 # Backup & report files from converting an old project file
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
@@ -144,12 +214,22 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
+<<<<<<< HEAD
 # Microsoft Fakes
 FakesAssemblies/
 *.sln
 *.vcxproj
 *.filters
+=======
+
+# Microsoft Fakes
+FakesAssemblies/
+>>>>>>> origin/master
